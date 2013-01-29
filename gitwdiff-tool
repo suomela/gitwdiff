@@ -1,0 +1,29 @@
+#!/bin/sh
+
+path="$1"
+oldfile="$2"
+oldhex="$3"
+oldmode="$4"
+newfile="$5"
+newhex="$6"
+newmode="$7"
+
+esc=$(printf '\033[')
+msg="${esc}1m*** $path${esc}m"
+if [ "$#" == "1" ]; then
+    echo "$msg: unmerged"
+else
+    if [ "$oldfile" == "/dev/null" ]; then
+        echo "$msg: new file, mode $newmode"
+        echo
+    else
+        echo "$msg: file changed"
+        echo
+        if [ "$oldmode" != "$newmode" ]; then
+            echo "mode change: $oldmode -> $newmode"
+            echo
+        fi
+    fi
+    mywdiff "$oldfile" "$newfile"
+    echo
+fi
