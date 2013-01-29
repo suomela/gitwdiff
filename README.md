@@ -3,6 +3,16 @@ gitwdiff
 
 Better word-diff for git.
 
+Usage
+-----
+
+Add everything to your `$PATH`. Make sure you have `wdiff` installed.
+
+Use `gitwdiff ...` instead of `git diff ...`.
+
+Use `svnwdiff ...` instead of `svn diff ...`.
+
+
 Examples
 --------
 
@@ -24,3 +34,11 @@ Dependencies
 ------------
 
 wdiff - http://www.gnu.org/software/wdiff/
+
+
+Colour codes
+------------
+
+Try `mywdiff2` instead of `mywdiff` for an alternative colour scheme.
+
+See http://en.wikipedia.org/wiki/ANSI_escape_code for the colour codes.
