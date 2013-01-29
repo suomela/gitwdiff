@@ -40,6 +40,6 @@ wdiff - http://www.gnu.org/software/wdiff/
 Colours
 -------
 
-Try `gitwdiff2` for an alternative colour scheme.
+Try `gitwdiff1` or `gitwdiff2` for alternative colour schemes.
 
 See http://en.wikipedia.org/wiki/ANSI_escape_code for the colour codes.
