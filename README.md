@@ -6,7 +6,7 @@ Better word-diff for git.
 Examples
 --------
 
-More examples at: https://raw.github.com/suomela/gitwdiff/examples/example/
+More examples at: https://github.com/suomela/gitwdiff/tree/examples/example
 
 ### gitwdiff
 
