@@ -20,14 +20,15 @@ More examples at: https://github.com/suomela/gitwdiff/tree/examples/example
 
 ### gitwdiff
 
-[<img src="https://raw.github.com/suomela/gitwdiff/examples/example/example1-gitwdiff.png" alt="gitwdiff" title="gitwdiff">][1]
+<img src="https://raw.github.com/suomela/gitwdiff/examples/example/example1-gitwdiff.png" alt="gitwdiff" title="gitwdiff">]
 
 ### git diff --color-words
 
-[<img src="https://raw.github.com/suomela/gitwdiff/examples/example/example1-diff-words.png" alt="git diff --color-words" title="git diff --color-words">][2]
+<img src="https://raw.github.com/suomela/gitwdiff/examples/example/example1-git-diff-color-words.png" alt="git diff --color-words" title="git diff --color-words">
 
-[1]: https://raw.github.com/suomela/gitwdiff/examples/example/example1-diff-words.png
-[2]: https://raw.github.com/suomela/gitwdiff/examples/example/example1-diff-words.png
+### git diff --word-diff
+
+<img src="https://raw.github.com/suomela/gitwdiff/examples/example/example1-git-diff-word-diff.png" alt="git diff --word-diff" title="git diff --word-diff">
 
 
 Dependencies
