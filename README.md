@@ -37,9 +37,9 @@ Dependencies
 wdiff - http://www.gnu.org/software/wdiff/
 
 
-Colour codes
-------------
+Colours
+-------
 
-Try `mywdiff2` instead of `mywdiff` for an alternative colour scheme.
+Try `gitwdiff2` for an alternative colour scheme.
 
 See http://en.wikipedia.org/wiki/ANSI_escape_code for the colour codes.

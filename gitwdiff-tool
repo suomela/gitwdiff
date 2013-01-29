@@ -1,12 +1,13 @@
 #!/bin/sh
 
-path="$1"
-oldfile="$2"
-oldhex="$3"
-oldmode="$4"
-newfile="$5"
-newhex="$6"
-newmode="$7"
+difftool="$1"
+path="$2"
+oldfile="$3"
+oldhex="$4"
+oldmode="$5"
+newfile="$6"
+newhex="$7"
+newmode="$8"
 
 esc=$(printf '\033[')
 msg="${esc}1m*** $path${esc}m"
@@ -24,6 +25,6 @@ else
             echo
         fi
     fi
-    mywdiff "$oldfile" "$newfile"
+    "$difftool" "$oldfile" "$newfile"
     echo
 fi
