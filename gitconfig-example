@@ -1,3 +1,5 @@
+[core]
+	pager = less -+$LESS -FRX
 [diff]
 	color = auto
 [color]
