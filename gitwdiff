@@ -1,4 +1,0 @@
-#!/bin/sh
-
-export GIT_EXTERNAL_DIFF=gitwdiff-tool
-exec git diff "$@"

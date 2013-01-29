@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# Ignore all flags
-while getopts uL: flag; do true; done
-shift $(($OPTIND - 1))
-
-esc=$(printf '\033[')
-wdiff -n -w "${esc}41;97m" -x "${esc}m" -y "${esc}1;103m" -z "${esc}m" "$@" | fgrep -C2 "$esc"
-exec cmp -s "$@"
