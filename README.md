@@ -1,7 +1,7 @@
 gitwdiff
 ========
 
-Better word-diff for git.
+Better word-diff for Git and SVN.
 
 Usage
 -----
@@ -11,6 +11,20 @@ Add everything to your `$PATH`. Make sure you have `wdiff` installed.
 Use `gitwdiff ...` instead of `git diff ...`.
 
 Use `svnwdiff ...` instead of `svn diff ...`.
+
+For the best results, copy the settings from `gitconfig-example` to
+your `~/.gitconfig`. After that:
+
+ - Long lines are wrapped in the output
+   (no horizontal scrolling in the pager).
+
+ - The usual Git commands such as `git diff`, `git show`, and
+   `git status` will use colours that are similar to the colour
+   scheme of `gitwdiff`.
+
+Git uses a pager by default. With SVN, you can try this:
+
+    svnwdiff ... | less -R
 
 
 Examples
