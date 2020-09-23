@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export GIT_EXTERNAL_DIFF="gitwdiff-tool mywdiff1"
 exec git diff "$@"
